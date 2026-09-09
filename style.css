@@ -1401,3 +1401,20 @@ html[lang="fa"] footer .container {
     }
 }
 ```
+
+/* Fix CEA text visibility inside Hero diagram */
+.main-node {
+    background: var(--green-dark);
+    color: #ffffff !important;
+}
+
+.main-node strong {
+    color: #ffffff !important;
+}
+
+.main-node span {
+    color: rgba(255, 255, 255, 0.90) !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    display: block !important;
+}
