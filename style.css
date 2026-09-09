@@ -1418,3 +1418,32 @@ html[lang="fa"] footer .container {
     visibility: visible !important;
     display: block !important;
 }
+
+
+/* =========================================================
+   FIX — CEA CENTRAL NODE VISIBILITY
+   ========================================================= */
+
+.hero-visual .main-node {
+    background: var(--green-dark) !important;
+    color: #ffffff !important;
+    border: 0 !important;
+    box-shadow: 0 20px 45px rgba(18, 55, 42, 0.25);
+}
+
+.hero-visual .main-node strong {
+    color: #ffffff !important;
+    display: block;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.hero-visual .main-node span {
+    display: block !important;
+    color: rgba(255, 255, 255, 0.85) !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    font-size: 10px;
+    line-height: 1.4;
+}
