@@ -1689,3 +1689,42 @@ html[lang="fa"] .hero-buttons {
         height: 315px;
     }
 }
+
+/* =========================================================
+   FIX — RESEARCH SECTION
+   ========================================================= */
+
+.dark-section {
+    background: var(--green-dark);
+    color: var(--white);
+}
+
+.dark-section .eyebrow {
+    color: #9bd7b8;
+}
+
+.dark-section h2 {
+    color: var(--white);
+}
+
+.dark-section .section-title > p:last-child {
+    color: rgba(255, 255, 255, 0.68);
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+}
+
+@media (max-width: 1000px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 720px) {
+    .cards {
+        grid-template-columns: 1fr;
+    }
+}
